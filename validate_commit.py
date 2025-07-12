@@ -63,7 +63,7 @@ def construct_prompt(diff):
         contributing = f.read()
     
     prompt = f"""
-Audit this pull request to verify the following checklist for a PR to CSrankings. Indicate any questionable additions, removals, or modifications. In particular, verify if any new faculty are affiliated at the listed institution, and whether they are in computer science or can solely supervise PhD students for a degree in computer science, and if they are full-time faculty members. Consult LinkedIn if necessary, as well as departmental web pages. Respond ONLY with a JSON file like the following:
+Audit this pull request to verify the following checklist for a PR to CSrankings. Indicate any questionable additions, removals, or modifications. In particular, verify if any new faculty are affiliated at the listed institution, and whether they are in computer science or can solely supervise PhD students for a degree in computer science, and if they are full-time faculty members. Consult their home page (included in the PR), and if necessary, consult LinkedIn or departmental web pages and Google Scholar (using the included Google Scholar ID). Respond ONLY with a JSON file like the following:
 
 {{ 
 [
