@@ -52,8 +52,13 @@ def get_dblp_info(path: str, timeout: float = 10.0) -> str:
             pass
     raise RuntimeError("All DBLP fetch attempts failed.")
 
-DBLP = get_dblp_info("", 3.0)
+DBLP = None
 
+def get_dblp():
+    global DBLP
+    if DBLP is None:
+        DBLP = get_dblp_info("", 3.0)
+    return DBLP
 def translate_name_to_dblp(name: str) -> str:
     name = re.sub(r'\.', '', name)
     name = re.sub(r'-', ' ', name)
