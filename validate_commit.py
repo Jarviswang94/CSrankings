@@ -208,7 +208,7 @@ def process_csv_diff(diff_path: str) -> bool:
         if matched:
             the_letter = unidecode.unidecode(matched.groups(0)[0])
             for line in lines:
-                if re.search(',\s', line):
+                if re.search(r',\s', line):
                     print(f"ERROR: Space after comma: {line}")
                     valid = False
                     continue
