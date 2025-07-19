@@ -45,6 +45,7 @@ Chinese University of Hong Kong,asia,hk
 Chittagong University of Engineering & Technology,asia,bd
 Chongqing University,asia,cn
 Chulalongkorn University,asia,th
+Chung-Ang University,asia,kr
 City University of Hong Kong,asia,hk
 City University of London,europe,gb
 City University of Macau,asia,mo
@@ -139,6 +140,7 @@ Jacobs University Bremen,europe,de
 Jadavpur University,asia,in
 Jagiellonian University,europe,pl
 Jahangirnagar University,asia,bd
+Jilin University,asia,cn
 KAIST,asia,kr
 KAUST,asia,sa
 KIIT Bhubaneswar,asia,in
@@ -179,6 +181,7 @@ Memorial University of Newfoundland,canada,ca
 Middle East Technical University,europe,tr
 Middlesex University,europe,gb
 Monash University,australasia,au
+Monash University Indonesia,asia,id
 Mälardalen University,europe,se
 NAIST,asia,jp
 NISER,asia,in
@@ -230,6 +233,7 @@ Renmin University of China,asia,cn
 Royal Holloway University of London,europe,gb
 Royal Military College of Canada,canada,ca
 Ruhr-University Bochum,europe,de
+SUAT,asia,cn
 SUFE,asia,cn
 SUSTech,asia,cn
 SUTD,asia,sg
@@ -238,6 +242,7 @@ Sabancı University,europe,tr
 Sapienza University of Rome,europe,it
 Scuola Superiore Sant'Anna,europe,it
 Seoul National University,asia,kr
+Shahid Beheshti University,asia,ir
 Shandong University,asia,cn
 Shanghai Jiao Tong University,asia,cn
 ShanghaiTech University,asia,cn
@@ -295,6 +300,7 @@ UFPR,southamerica,br
 UFRGS,southamerica,br
 UFRJ,southamerica,br
 UFU,southamerica,br
+UiT The Arctic University of Norway,europe,no
 UNICAMP,southamerica,br
 UNIST,asia,kr
 UNSW,australasia,au
@@ -455,6 +461,7 @@ University of Würzburg,europe,de
 University of York,europe,gb
 University of Zurich,europe,ch
 Università della Svizzera italiana,europe,ch
+Université de Mons,europe,be
 Université Jean Monnet,europe,fr
 Université Laval,canada,ca
 Université Paris Dauphine,europe,fr
