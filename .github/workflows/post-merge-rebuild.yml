@@ -27,8 +27,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run make
-        run: |
-          make
+        run: make
 
       - name: Commit and push changes
         run: |
